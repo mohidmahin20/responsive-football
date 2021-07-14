@@ -89,9 +89,20 @@ margin-top: 30px;
 .football img{
     width:400px;
 }
-.footer{
+footer p{
     text-align: center;
 }
-.fourth-section{
-   background-color: blue;
+/* media qeries */
+@media screen and (max-width:688px) {
+    .second-section{
+        justify-content: center;
+        grid-template-columns: repeat( 1, 1fr);
+        flex-direction: column;
+    }
+    .section{
+        justify-content: center;
+        grid-template-columns: repeat( 1, 1fr);
+        flex-direction: column;
+    }
+    
 }
