@@ -1,0 +1,68 @@
+
+body{
+    font-family: 'poppins', sans-serif
+    }
+.half-width{
+    height: 230px;
+    width: 485px;
+    left: 156px;
+    top: 207px;
+    border-radius: nullpx;
+    bottom: 240px;
+    right: 799px;
+    margin-left: 70px;
+    
+}
+h1{
+    
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0px;
+text-align: left;
+color: white;
+
+}
+.next-width img{
+    height: 438px;
+width: 556px;
+left: 1299px;
+top: 153px;
+border-radius: 0px;
+margin-top: 30px;
+    
+}
+.section{
+    display:flex;
+    padding-bottom: 20px;
+    background-color: rgb(26, 26, 116);
+}
+.button{
+    background-color: #E02C6D;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    text-decoration: none;
+}
+/* second section player */
+.second-section{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.players img{
+    width: 200px;
+}
+.neymar{
+    width: 200px;
+    word-wrap: break-word;
+    box-shadow: 5px 5px 50px gray;
+    padding: 5px;
+    margin:10px;
+}
+.neymar img{
+    width: 200px;
+}
